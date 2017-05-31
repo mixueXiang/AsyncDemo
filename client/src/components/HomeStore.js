@@ -24,6 +24,7 @@ define('HomeStore', function() {
                 });
             },
 
+            //获取区信息
             getAreaInfo: function(params) {
                 var me = this;
                 Utils.getAjaxData(GET_AREA_PATH, params, function (data) {
@@ -33,6 +34,7 @@ define('HomeStore', function() {
                 });
             },
 
+            //获取县信息
             getCountryInfo: function(params) {
                 var me = this;
                 Utils.getAjaxData(GET_COUNTRY_PATH, params, function (data) {
@@ -42,6 +44,7 @@ define('HomeStore', function() {
                 });
             },
 
+            //获取镇信息
             getTownInfo: function(params) {
                 var me = this;
                 Utils.getAjaxData(GET_TOWN_PATH, params, function (data) {
@@ -53,11 +56,7 @@ define('HomeStore', function() {
 
     	},
     	filters: {
-    		pushToArr: function(data) {
-  				
-    		},
     		valid: function(data) {
-
     		}
     	},
 
