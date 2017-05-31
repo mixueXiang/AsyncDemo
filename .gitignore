@@ -1,0 +1,4 @@
+/node_modules
+*.log
+/mock
+output_*
