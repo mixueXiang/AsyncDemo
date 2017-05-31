@@ -1,6 +1,4 @@
-/*
- * Native调用封装
- */
+
 define('StoreBase', function(){
     var listeners = {};
     var cache = {};
